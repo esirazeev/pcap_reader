@@ -1,5 +1,5 @@
-#ifndef PCAP_UTILS_BYTE_SWAP_HPP
-#define PCAP_UTILS_BYTE_SWAP_HPP
+#ifndef PCAP_READER_INCLUDE_PCAP_UTILS_BYTE_SWAP_HPP
+#define PCAP_READER_INCLUDE_PCAP_UTILS_BYTE_SWAP_HPP
 
 #ifdef __WIN32
 #include <winsock2.h>
@@ -13,4 +13,4 @@
 #define bswap64(value) bswap_64(value)
 #endif
 
-#endif // PCAP_UTILS_BYTE_SWAP_HPP
+#endif // PCAP_READER_INCLUDEPCAP_UTILS_BYTE_SWAP_HPP

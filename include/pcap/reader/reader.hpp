@@ -1,5 +1,5 @@
-#ifndef INCLUDE_PCAP_READER_HPP
-#define INCLUDE_PCAP_READER_HPP
+#ifndef PCAP_READER_INCLUDE_PCAP_READER_HPP
+#define PCAP_READER_INCLUDE_PCAP_READER_HPP
 
 #include <expected>
 #include <fstream>
@@ -69,4 +69,4 @@ private:
 };
 } // namespace pcap
 
-#endif // INCLUDE_PCAP_READER_HPP
+#endif // PCAP_READER_INCLUDE_PCAP_READER_HPP

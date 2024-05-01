@@ -1,5 +1,5 @@
-#ifndef INCLUDE_PCAP_READER_FILE_CONTEXT_HPP
-#define INCLUDE_PCAP_READER_FILE_CONTEXT_HPP
+#ifndef PCAP_READER_INCLUDE_PCAP_READER_FILE_CONTEXT_HPP
+#define PCAP_READER_INCLUDE_PCAP_READER_FILE_CONTEXT_HPP
 
 #include <bit>
 #include <cstdint>
@@ -28,4 +28,5 @@ struct FileContext
 	uint64_t size;
 };
 } // namespace pcap
-#endif // INCLUDE_PCAP_READER_TYPES_HPP
+
+#endif // PCAP_READER_INCLUDE_PCAP_READER_TYPES_HPP

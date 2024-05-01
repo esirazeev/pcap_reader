@@ -1,5 +1,5 @@
-#ifndef INCLUDE_PCAP_RAW_PACKET_HPP
-#define INCLUDE_PCAP_RAW_PACKET_HPP
+#ifndef PCAP_READER_INCLUDE_PCAP_RAW_PACKET_HPP
+#define PCAP_READER_INCLUDE_PCAP_RAW_PACKET_HPP
 
 #include "byte_buffer/byte_buffer.hpp"
 
@@ -53,4 +53,4 @@ private:
 };
 } // namespace pcap
 
-#endif // INCLUDE_PCAP_RAW_PACKET_HPP
+#endif // PCAP_READER_INCLUDE_PCAP_RAW_PACKET_HPP
